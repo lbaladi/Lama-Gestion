@@ -48,13 +48,13 @@ L’ensemble des macros est réparti en 3 modules : `DataBse`, `Manipulation_dat
 
 - **Bouton** : `Création DATABASE`  
   **Module** : `DataBse`  
-  **Macro** : `create_database()`
+  **Macro** : `create_database()`  
 
   > Crée la base de données Access à partir des fichiers fournis. Étape cruciale à effectuer en premier (sauf "Rapprochement Listing").
 
 - **Bouton** : `Modification DATABASE`  
   **Module** : `DataBse`  
-  **Macro** : `modifDB()`
+  **Macro** : `modifDB()`  
 
   > Modifie la structure de la base pour permettre une meilleure manipulation.  
   La base obtenue contient 8 tables :
@@ -71,7 +71,7 @@ L’ensemble des macros est réparti en 3 modules : `DataBse`, `Manipulation_dat
 
 - **Boutons** : `Nouveau client`, `Supprimer client`, `Nouvel investissement`, `Supprimer investissement`  
   **Module** : `Manipulation_dataBase`  
-  **Macros** : `NewClient`, `SupClient`, `NewInvest`, `SupInvest`
+  **Macros** : `NewClient`, `SupClient`, `NewInvest`, `SupInvest`  
 
   > Les macros affichent un **UserForm** puis appellent des procédures (`AddProc`, `DeleteProc`, `DepotProc`, `RetraitProc`) selon l’opération choisie.  
   Les données sont modifiées dans `pilotage_investisseurs` et `pilotage_fonds`.
@@ -82,7 +82,7 @@ L’ensemble des macros est réparti en 3 modules : `DataBse`, `Manipulation_dat
 
 - **Bouton** : `Rapprochement listing`  
   **Module** : `Reporting`  
-  **Macro** : `macro_rappro()`
+  **Macro** : `macro_rappro()`  
 
   > Automatisation du rapprochement entre anciens et nouveaux listings NASDAQ.  
   Résultat affiché dans une feuille Excel récapitulative.
@@ -101,9 +101,9 @@ Une interface **UserForm** permet :
 
 #### - Par boutique
 
-- **Bouton** : `Reporting Boutique`
-  **Module** : `Reporting` 
-  **Macro** : `reportingBoutique()`
+- **Bouton** : `Reporting Boutique`  
+  **Module** : `Reporting`  
+  **Macro** : `reportingBoutique()` 
 
   > Génère un reporting global : actifs sous gestion, infos par fonds, récapitulatif client.
 
