@@ -103,31 +103,31 @@ Une interface **UserForm** permet :
 
 - **Bouton** : `Reporting Boutique`  
   **Module** : `Reporting`  
-  **Macro** : `reportingBoutique()` 
+  **Macro** : `reportingBoutique()`  
 
   > Génère un reporting global : actifs sous gestion, infos par fonds, récapitulatif client.
 
 #### - Par fonds
 
-- **Bouton** : `Reporting Fonds`
+- **Bouton** : `Reporting Fonds`  
   **Module** : `Reporting`  
-  **Macro** : `reportingFonds()`
+  **Macro** : `reportingFonds()`  
 
   > L’utilisateur choisit un fonds via un UserForm → génération + envoi du reporting.
 
 #### - Meilleurs clients
 
-- **Bouton** : `Reporting meilleurs clients`
-  **Module** : `Reporting` 
-  **Macro** : `reportingTopClient()`
+- **Bouton** : `Reporting meilleurs clients`  
+  **Module** : `Reporting`  
+  **Macro** : `reportingTopClient()`  
 
   > Focus sur les 10 meilleurs clients (montants déposés, infos personnelles, répartitions par fonds).
 
 #### - Par client
 
-- **Bouton** : `Reporting Clients`
-  **Module** : `Reporting` 
-  **Macro** : `reportingClient()`
+- **Bouton** : `Reporting Clients`  
+  **Module** : `Reporting`  
+  **Macro** : `reportingClient()`  
 
   > Sélection d’un ou plusieurs clients via une ListBox → génération + envoi des reportings.
 
