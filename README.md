@@ -34,8 +34,7 @@ Voici une brève description de l’architecture des fichiers du projet :
 - `release/` : application principale à ouvrir (`Projet Lama-Gestion.xlsm`)
 - `reporting/` : rapports PDF générés par fonds et pour les clients
 - `src/` : code source VBA (modules, formulaires utilisateurs)
-- `Notice Utilisateur.pdf` : guide d’utilisation de l’application
-- `logo.jpg` : logo du projet
+- `logo.jpg` : logo du fonds
 
 ---
 
